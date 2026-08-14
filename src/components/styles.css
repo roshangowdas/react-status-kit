@@ -1,0 +1,47 @@
+.rsk-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: system-ui, -apple-system, sans-serif;
+  border-radius: 8px;
+  background-color: #f9fafb;
+  min-height: 200px;
+  color: #374151;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.rsk-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.rsk-message {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* Spinner Animation */
+.rsk-spinner {
+  border: 4px solid #e5e7eb;
+  border-top: 4px solid #3b82f6;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: rsk-spin 1s linear infinite;
+  margin-bottom: 16px;
+}
+
+@keyframes rsk-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* State Specific Colors */
+.rsk-error { background-color: #fef2f2; color: #991b1b; }
+.rsk-success { background-color: #f0fdf4; color: #166534; }
+.rsk-offline { background-color: #fffbeb; color: #92400e; }

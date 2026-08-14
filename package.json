@@ -1,0 +1,43 @@
+{
+  "name": "@roshan__gowda/react-status-kit",
+  "version": "1.0.0",
+  "description": "A production-ready React component library for common UI states.",
+  "type": "module",
+  "main": "dist/react-state-kit.umd.js",
+  "module": "dist/react-state-kit.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/react-state-kit.es.js",
+      "require": "./dist/react-state-kit.umd.js"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0 || ^19.0.0",
+    "react-dom": "^18.2.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "rollup-plugin-peer-deps-external": "^2.2.2",
+    "vite": "^5.2.0"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "ui",
+    "states",
+    "loading",
+    "error",
+    "empty"
+  ],
+  "author": "Roshan",
+  "license": "MIT"
+}
