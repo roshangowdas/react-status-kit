@@ -40,10 +40,9 @@ After publishing the package on npm, it can be installed directly into any React
 
 ### Published package screenshot
 
-> Replace the image below with your actual npm package screenshot.
 
 <p align="center">
-  <img src="./assets/npm-package.png" alt="React State Kit on npm" width="900"/>
+  <img src="published-package-screenshot.png" alt="React State Kit on npm" width="900"/>
 </p>
 
 ---
